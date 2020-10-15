@@ -1,64 +1,122 @@
-body {
-    font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+body /*especifidad= */
+{ 
+    font: 400 0.9375em Tahoma, sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
     color:black;
 }
-h1 {
+h1 /*especifidad= */ 
+{
     background-color:#2271b3; 
     color: #fff;
     text-transform: uppercase;
-    padding: 100px 25px;
+    padding: 3.75em 1.5625em;
     text-align: center;     
 }
+h2 /*especifidad= */
+{
+    background-color:#c8c3c3;
+}
+article /*especifidad= */
+{
+    text-align: left;
+}
 
+#terminator /*especifidad= */
+{
+   
+    height: 50em;
+    width: 31.25em; 
+    display:block;
+    margin:auto;
 
-img {
-    height: 300px;
-    width: 300px;    
+}
+#peliculas  /*especifidad= */
+{
+    height:700px;
+    width:800 px;
+}
+#musica{
+    color:black;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+#musica:hover{
+    color:red;
+}
+
+img /*especifidad= */
+{
+    height: 18.75em;
+    width: 18.75em;    
     object-fit: cover;
    
 }
-figure{
+figure /*especifidad= */
+{
     display:inline-block;
 }
-video{
-    height:600px;
-    width:1000px;
+video /*especifidad= */
+{
+    height:37.5em;
+    width:62.5em;
     
 }
+table /*especifidad= */
+{
+    text-align:center;
+    margin:auto;
+}
 
-main {
+main /*especifidad= */
+ {
     text-align: center;
 }
 
 
 
-td {
-    padding-top: 10px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:5px;
+td /*especifidad= */
+ {
+   
+    padding:0.625em;
 }
-ul {
+
+th /*especifidad= */
+{
+    font-size:16pt;
+    color:black;
+    padding:0.625em;
+
+}
+ul /*especifidad= */
+ {
    list-style-type: none;
     overflow: hidden;
     background-color: #333;
   }
-  li{
+  li /*especifidad= */
+  {
       float:left;
   }
 
-a{
+a  /*especifidad= */
+{
    display:block;
   color:white;
   text-align: center;
-  padding:12px;
+  padding:0.75em;
   text-decoration: none;
 }
-a:hover{
+a:hover  /*especifidad= */
+{
     background-color: #111;
 }
-th{
-    font-size:16pt;
-    color:black;
+
+nav ul /*especifidad= */
+
+{
+    display: flex;
+    justify-content: space-evenly;
 }

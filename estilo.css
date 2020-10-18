@@ -17,6 +17,9 @@ h2 /*especifidad= 1*/
     background-color:#c8c3c3;
     text-align:center;
 }
+h3{
+    text-align:center;
+}
 article /*especifidad= 1*/
 {
     text-align: left;
@@ -51,6 +54,7 @@ video /*especifidad=1 */
 {
     height:37.5em;
     width:62.5em;
+    padding-left: 20em;
     
 }
 

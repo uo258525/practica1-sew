@@ -1,0 +1,13 @@
+nav ul /*especificidad=2  */
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+figure /*especificidad=1 */
+{
+    float: left;
+    padding-left: 7em;
+}
+
+
+   

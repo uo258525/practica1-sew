@@ -1,12 +1,25 @@
+
+h1 
+{
+    position:relative;
+}
 nav ul /*especificidad=2  */
 {
     display: flex;
     justify-content: space-evenly;
 }
+main/*especifidad=1*/
+{
+    position:relative;
+}
 figure /*especificidad=1 */
 {
     float: left;
     padding-left: 7em;
+}
+article/*especificidad=1 */
+{
+    position: relative;
 }
 
 

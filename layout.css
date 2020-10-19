@@ -6,7 +6,8 @@ nav ul /*especificidad=2  */
     flex-wrap: wrap;
 }
 
-#fotos-galeria {
+#fotos-galeria /*especificidad=100*/
+{
     display: flex;
     flex-direction: row;
     justify-content: center;

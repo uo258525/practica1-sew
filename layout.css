@@ -1,12 +1,15 @@
-
-h1 
+h1,h2,h3 /*especificidad=1 */ 
 {
-    position:relative;
+    position: relative;
 }
 nav ul /*especificidad=2  */
 {
     display: flex;
     justify-content: space-evenly;
+}
+body
+{
+    position: relative;
 }
 main/*especifidad=1*/
 {
@@ -15,12 +18,14 @@ main/*especifidad=1*/
 figure /*especificidad=1 */
 {
     float: left;
-    padding-left: 7em;
+    
+    padding-left: 4em;
 }
-article/*especificidad=1 */
+img,video /*especificidad=1 */
 {
     position: relative;
 }
+
 
 
 
